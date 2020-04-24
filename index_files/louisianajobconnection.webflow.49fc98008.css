@@ -3091,9 +3091,32 @@ a {
   /* width: 60%; */
 }
 
-.is--margin-top-intro {
+.is--margin-topintro {
   margin-top: 16px;
-  width: 60%;
+  /* width: 60%;
+  display: flex; */
+  max-width: 530px;
+  position: relative;
+  display: flex;
+  /* height: 70vh; */
+  /* max-height: 650px;
+  min-height: 440px; */
+  /* padding-right: 40%; */
+  /* padding-left: 8%; */
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal; */
+  /* -webkit-flex-direction: column; */
+  /* -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; */
+  /* -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch; */
+
 }
 
 .c-footer {
