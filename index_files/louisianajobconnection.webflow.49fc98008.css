@@ -3095,9 +3095,12 @@ a {
   margin-top: 16px;
   /* width: 60%;
   display: flex; */
-  max-width: 60%;
+  /* max-width: 80%; */
+/* 
+  padding-inline-end: 28%;
   position: relative;
-  display: flex;
+  display: flex; */
+  max-width: 530px;
   /* height: 70vh; */
   /* max-height: 650px;
   min-height: 440px; */
