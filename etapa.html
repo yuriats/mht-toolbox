@@ -23,7 +23,6 @@
         .tk-sofia-pro {
             font-family: "sofia-pro", sans-serif;
         }
-        
     </style>
     <style type="text/css">
         @font-face {
@@ -67,22 +66,22 @@
         }
 
         /* inicio configurando etapas */
-     
+
         @keyframes shake {
-	25% {
-		transform: rotate(calc(var(--angle) * -1));
-	}
+            25% {
+                transform: rotate(calc(var(--angle) * -1));
+            }
 
-	50% {
-		transform: rotate(var(--angle));
-	}
+            50% {
+                transform: rotate(var(--angle));
+            }
 
-	100% {
-		transform: rotate(0deg);
-	}
-}
+            100% {
+                transform: rotate(0deg);
+            }
+        }
 
-/* body {
+        /* body {
 	font: 100 1.3em sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -90,190 +89,195 @@
 	padding: 0 5rem;
 } */
 
-h1 {
-	font-weight: 100;
-}
+        h1 {
+            font-weight: 100;
+        }
 
-.display {
-    display: grid;
-    grid-template-columns: 35% 35%;
-	/* gap: 0.1em; */
-	/* display: grid ;
+        .display {
+            display: grid;
+            grid-template-columns: 35% 35%;
+            /* gap: 0.1em; */
+            /* display: grid ;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100% 100%;
     grid-area: 1000px;
     gap: 0em; */
-    /* margin-top: 10%; */
-}
-.display-big {
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    padding-bottom: 7%;
-}
-/* testing big hoover */
-.BIG-HOVER {
-	--width: 100%;
-	--time: 0.7s;
-    /* margin-left: 10%; */
-   /* padding-left: 70%; */
-   /* border-left: 10em; */
+            /* margin-top: 10%; */
+        }
 
-	position: relative;
-	display: inline-block;
-	/* height: 0%; */
-    /* padding: 3.5em; */
-    padding: 33%;
+        .display-big {
+            display: grid;
+            grid-template-columns: 25% 25% 25%;
+            padding-bottom: 7%;
+        }
 
-	color: white;
-	overflow: hidden;
-}
+        /* testing big hoover */
+        .BIG-HOVER {
+            --width: 100%;
+            --time: 0.7s;
+            /* margin-left: 10%; */
+            /* padding-left: 70%; */
+            /* border-left: 10em; */
 
-.BIG-HOVER text {
-	position: relative;
-	z-index: 5;
-	transition: color var(--time);
-}
+            position: relative;
+            display: inline-block;
+            /* height: 0%; */
+            /* padding: 3.5em; */
+            padding: 33%;
 
-.BIG-HOVER:hover text {
-	color: #222;
-}
+            color: white;
+            overflow: hidden;
+        }
 
-.BIG-HOVER span {
-	border-radius: 100%;
-	position: absolute;
-	display: block;
-	content: "";
-	z-index: 0;
-	width: 0;
-	height: 0;
+        .BIG-HOVER text {
+            position: relative;
+            z-index: 5;
+            transition: color var(--time);
+        }
 
-    /* background: #FCB813; */
-    background: rgba(252, 184, 19, 0.3);
-	transform: translate(-50%, -50%);
-	transition: width var(--time), padding-top var(--time);
-}
+        .BIG-HOVER:hover text {
+            color: #222;
+        }
 
-.BIG-HOVER:hover span {
-	width: calc(var(--width) * 2.25);
-	padding-top: calc(var(--width) * 2.25);
-}
-/* end testing */
+        .BIG-HOVER span {
+            border-radius: 100%;
+            position: absolute;
+            display: block;
+            content: "";
+            z-index: 0;
+            width: 0;
+            height: 0;
 
-/* TESTING no-hover */
-NO-HOVER {
-	--width: 100%;
-	--time: 0.7s;
-    /* margin-left: 70%; */
-   /* padding-left: 70%; */
-   /* border-left: 10em; */
+            /* background: #FCB813; */
+            background: rgba(252, 184, 19, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width var(--time), padding-top var(--time);
+        }
 
-	position: relative;
-	display: inline-block;
-	height: 0em;
-    /* padding: 3.5em; */
-    padding: 18%;
+        .BIG-HOVER:hover span {
+            width: calc(var(--width) * 2.25);
+            padding-top: calc(var(--width) * 2.25);
+        }
 
-	color: white;
-	/* background: #222; */
-    overflow: hidden;
-    border-bottom: 20%; 
-    width: 100%; 
-    height: 100%;
-}
+        /* end testing */
 
-NO-HOVER text {
-	position: relative;
-	z-index: 5;
-	transition: color var(--time);
-}
+        /* TESTING no-hover */
+        NO-HOVER {
+            --width: 100%;
+            --time: 0.7s;
+            /* margin-left: 70%; */
+            /* padding-left: 70%; */
+            /* border-left: 10em; */
 
-NO-HOVER:hover text {
-	color: #222;
-}
+            position: relative;
+            display: inline-block;
+            height: 0em;
+            /* padding: 3.5em; */
+            padding: 18%;
 
-NO-HOVER span {
-	border-radius: 100%;
-	position: absolute;
-	display: block;
-	content: "";
-	z-index: 0;
-	width: 0;
-	height: 0;
+            color: white;
+            /* background: #222; */
+            overflow: hidden;
+            border-bottom: 30%;
+            width: 100%;
+            height: 100%;
+        }
 
-    /* background: #FCB813; */
-    background: none;
-	transform: translate(-50%, -50%);
-	transition: width var(--time), padding-top var(--time);
-}
+        NO-HOVER text {
+            position: relative;
+            z-index: 5;
+            transition: color var(--time);
+        }
 
-NO-HOVER:hover span {
-	width: calc(var(--width) * 2.25);
-	padding-top: calc(var(--width) * 2.25);
-}
-/* end testing */
+        NO-HOVER:hover text {
+            color: #222;
+        }
 
-.HOVER {
-	--width: 100%;
-	--time: 0.7s;
-    /* margin-left: 70%; */
-   /* padding-left: 70%; */
-   /* border-left: 10em; */
+        NO-HOVER span {
+            border-radius: 100%;
+            position: absolute;
+            display: block;
+            content: "";
+            z-index: 0;
+            width: 0;
+            height: 0;
 
-	position: relative;
-	display: inline-block;
-	height: 0em;
-    /* padding: 3.5em; */
-    padding: 18%;
+            /* background: #FCB813; */
+            background: none;
+            transform: translate(-50%, -50%);
+            transition: width var(--time), padding-top var(--time);
+        }
 
-	color: white;
-	/* background: #222; */
-    overflow: hidden;
-    border-bottom: 20%; 
-    width: 100%; 
-    height: 100%;
-}
+        NO-HOVER:hover span {
+            width: calc(var(--width) * 2.25);
+            padding-top: calc(var(--width) * 2.25);
+        }
 
-.HOVER text {
-	position: relative;
-	z-index: 5;
-	transition: color var(--time);
-}
+        /* end testing */
 
-.HOVER:hover text {
-	color: #222;
-}
+        .HOVER {
+            --width: 100%;
+            --time: 0.7s;
+            /* margin-left: 70%; */
+            /* padding-left: 70%; */
+            /* border-left: 10em; */
 
-.HOVER span {
-	border-radius: 100%;
-	position: absolute;
-	display: block;
-	content: "";
-	z-index: 0;
-	width: 0;
-	height: 0;
+            position: relative;
+            display: inline-block;
+            height: 0em;
+            /* padding: 3.5em; */
+            padding: 18%;
 
-    /* background: #FCB813; */
-    background: rgba(252, 184, 19, 0.3);
-	transform: translate(-50%, -50%);
-	transition: width var(--time), padding-top var(--time);
-}
+            color: white;
+            /* background: #222; */
+            overflow: hidden;
+            border-bottom: 30%;
+            width: 100%;
+            height: 100%;
+        }
 
-.HOVER:hover span {
-	width: calc(var(--width) * 2.25);
-	padding-top: calc(var(--width) * 2.25);
-}
+        .HOVER text {
+            position: relative;
+            z-index: 5;
+            transition: color var(--time);
+        }
 
-.animated {
-	--angle: 5deg;
-	animation: shake 0.3s;
-}
+        .HOVER:hover text {
+            color: #222;
+        }
 
-.link{
-	position: absolute;
-	right: 10px;
-	bottom: 10px;
-	font-size: 0.7em;
-}
+        .HOVER span {
+            border-radius: 100%;
+            position: absolute;
+            display: block;
+            content: "";
+            z-index: 0;
+            width: 0;
+            height: 0;
+
+            /* background: #FCB813; */
+            background: rgba(252, 184, 19, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width var(--time), padding-top var(--time);
+        }
+
+        .HOVER:hover span {
+            width: calc(var(--width) * 2.25);
+            padding-top: calc(var(--width) * 2.25);
+        }
+
+        .animated {
+            --angle: 5deg;
+            animation: shake 0.3s;
+        }
+
+        .link {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            font-size: 0.7em;
+        }
+
         /* fim configurando etapas */
     </style>
 
@@ -1391,22 +1395,22 @@ NO-HOVER:hover span {
         <!-- <div class="nav">
             <div data-collapse="medium" data-animation="default" data-duration="400"
                 data-w-id="9d530b53-a0d2-f7d3-07d9-a7eabc34feb6" class="c-navbar w-nav"><a
-                    href="https://www.louisianajobconnection.com/" class="c-navbar_link w-nav-brand"><img
+                    href="#/" class="c-navbar_link w-nav-brand"><img
                         src="./etapa_files/5e31c2415be31efdbd63e5bd_ljc-logo.svg" alt="Louisiana Job Connection Logo"
                         class="c-navbar_logo"></a>
                 <nav role="navigation" class="c-navbar_menu w-nav-menu">
-                    <div class="c-navbar_links-contain"><a href="https://www.louisianajobconnection.com/"
+                    <div class="c-navbar_links-contain"><a href="#/"
                             class="c-navbar_navlink w-inline-block"><img
                                 src="./etapa_files/5e31c9dc0cb08a5006577d6c_overview-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Overview</h6>
                         </a><a data-w-id="9d530b53-a0d2-f7d3-07d9-a7eabc34febf"
-                            href="https://www.louisianajobconnection.com/jobs"
+                            href="#/jobs"
                             class="c-navbar_navlink w-inline-block"><img
                                 src="./etapa_files/5e31c9dc0cb08a7dd2577d6d_jobs-icon1.svg" alt="" class="c-navbar_i1">
                             <h6>Jobs</h6>
                         </a><a data-w-id="9d530b53-a0d2-f7d3-07d9-a7eabc34fec3"
-                            href="https://www.louisianajobconnection.com/companies"
+                            href="#/companies"
                             class="c-navbar_navlink w-inline-block"><img
                                 src="./etapa_files/5e31c9dc703f6b5c59c27c62_companies-icon1.svg" alt=""
                                 class="c-navbar_i1">
@@ -1416,7 +1420,7 @@ NO-HOVER:hover span {
                                 src="./etapa_files/5e31c9dcba8771543ed43b79_helpful-tips-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Helpful Tips</h6>
-                        </a><a href="https://www.louisianajobconnection.com/support"
+                        </a><a href="#/support"
                             class="c-navbar_navlink w-inline-block"><img
                                 src="./etapa_files/5e31c9dcba8771fd6ad43b78_support-icon1.svg" alt=""
                                 class="c-navbar_i1">
@@ -1427,7 +1431,7 @@ NO-HOVER:hover span {
                                 src="./etapa_files/5e31c2732639f8d15602434a_file-illustration.svg"
                                 alt="Louisiana Job Connection Illustration" class="c-navbar_cta-img">
                             <p class="c-navbar_cta-p">Post your resume,<br>and let us match you.</p><a
-                                href="https://www.louisianajobconnection.com/privacy#"
+                                href="#/privacy#"
                                 class="c-button is--popup-button w-button">Post Resume</a>
                         </div>
                     </div>
@@ -1441,7 +1445,7 @@ NO-HOVER:hover span {
             <div class="c-popup">
                 <div class="c-popup_container">
                     <div class="c-popup_module">
-                        <div class="c-popup_title-contain"><a href="https://www.louisianajobconnection.com/privacy#"
+                        <div class="c-popup_title-contain"><a href="#/privacy#"
                                 class="c-popup_x-link w-inline-block"><img
                                     src="./etapa_files/5e3351c2c1dec48e0a2bc6ed_simple-x-icon.svg" alt=""
                                     class="c-popup_x"></a>
@@ -1779,40 +1783,32 @@ NO-HOVER:hover span {
                         by the revised Privacy Policy.</p>
                     <h3 class="is--dark is--small-bp"><strong>Contact Us</strong></h3>
                     <p class="is--large-bp">If you have any questions, comments, complaints, or requests related to this
-                        Privacy Policy, please <a href="https://www.louisianajobconnection.com/support"
+                        Privacy Policy, please <a href="#/support"
                             class="is--link">contact us</a>. Please include your name, contact information, and the
                         nature of your request so that we can appropriately respond to your communication.</p>
                 </div> -->
                 <div class="c-small-max">
                     <div class="center-bg">
                         <div class="display-big">
-                            <a class="BIG-HOVER" style="margin-left: 10%; width: 100%;" >
+                            <a href="./identificacao.html" class="BIG-HOVER" style="margin-left: 15%; width: 90%;">
                                 <span></span>
                                 <text><br><br><br></text>
                             </a>
-                            <a class="BIG-HOVER" style="margin-left: 63%; width: 90%;" >
+                            <a href="./identificacao.html" class="BIG-HOVER" style="margin-left: 63%; width: 90%;">
                                 <span></span>
                                 <text><br><br><br></text>
                             </a>
-                            <a class="BIG-HOVER" style="padding-left:70%; margin-left: 100%; width: 45%;">
+                            <a href="./identificacao.html" class="BIG-HOVER" style=" margin-left: 110%; width: 90%;">
                                 <span></span>
                                 <text><br><br><br></text>
                             </a>
                         </div>
-                        <div class="display" >
-                            <a class="NO-OVER" >
+                        <div class="display">
+                            <a class="NO-OVER">
                                 <span></span>
                                 <text><br></text>
                             </a>
-                            <a class="HOVER">
-                                <span></span>
-                                <text><br></text>
-                            </a>
-                            <a class="NO-HOVER">
-                                <span></span>
-                                <text><br></text>
-                            </a>
-                            <a class="HOVER">
+                            <a href="./identificacao.html" class="HOVER">
                                 <span></span>
                                 <text><br></text>
                             </a>
@@ -1820,7 +1816,7 @@ NO-HOVER:hover span {
                                 <span></span>
                                 <text><br></text>
                             </a>
-                            <a class="HOVER">
+                            <a href="./filtragem.html" class="HOVER">
                                 <span></span>
                                 <text><br></text>
                             </a>
@@ -1828,7 +1824,7 @@ NO-HOVER:hover span {
                                 <span></span>
                                 <text><br></text>
                             </a>
-                            <a class="HOVER">
+                            <a href="./priorizacao.html" class="HOVER">
                                 <span></span>
                                 <text><br></text>
                             </a>
@@ -1836,7 +1832,7 @@ NO-HOVER:hover span {
                                 <span></span>
                                 <text><br></text>
                             </a>
-                            <a class="HOVER">
+                            <a href="./avaliacao.html" class="HOVER">
                                 <span></span>
                                 <text><br></text>
                             </a>
@@ -1844,12 +1840,20 @@ NO-HOVER:hover span {
                                 <span></span>
                                 <text><br></text>
                             </a>
-                            <a class="HOVER">
+                            <a href="./disseminacao.html" class="HOVER">
+                                <span></span>
+                                <text><br></text>
+                            </a>
+                            <a class="NO-HOVER">
+                                <span></span>
+                                <text><br></text>
+                            </a>
+                            <a href="./atualizacao.html" class="HOVER">
                                 <span></span>
                                 <text><br></text>
                             </a>
                         </div>
-                        
+
                         <!-- <div class="selectetapa">Text here</div>
                         <div class="selectetapa">Text here</div>
                         <div class="selectetapa">Text here</div>
@@ -1866,7 +1870,7 @@ NO-HOVER:hover span {
             </div>
             <!-- <div class="c-footer">
                 <div class="c-footer_contain1">
-                    <p>Brought to you by:</p><a href="https://www.opportunitylouisiana.com/" target="_blank"
+                    <p>Brought to you by:</p><a href="http://www.peb.ufrj.br/less.htm" target="_blank"
                         class="c-footer_logo w-inline-block"><img
                             src="./etapa_files/5e31c32b85c62c7ebefe07f0_led-logo.svg"
                             alt="Louisiana Economic Development Logo"></a>
@@ -1880,9 +1884,9 @@ NO-HOVER:hover span {
                     </div>
                 </div>
                 <div class="c-footer_contain2"><a
-                        href="https://www.louisianajobconnection.com/frequently-asked-questions"
+                        href="#/frequently-asked-questions"
                         class="is--footer-link">FAQ</a>
-                    <div class="c-footer_line"></div><a href="https://www.louisianajobconnection.com/privacy"
+                    <div class="c-footer_line"></div><a href="#/privacy"
                         aria-current="page" class="is--footer-link w--current">Privacy</a>
                 </div>
                 <div class="c-footer_contain3"><a href="https://www.linkedin.com/company/louisiana-job-connection/"
@@ -1901,7 +1905,7 @@ NO-HOVER:hover span {
             </div> -->
             <div class="c-footer">
                 <div class="c-footer_contain1">
-                    <p>Disponibilizado por:</p><a href="https://www.opportunitylouisiana.com/" target="_blank"
+                    <p>Disponibilizado por:</p><a href="http://www.peb.ufrj.br/less.htm" target="_blank"
                         class="c-footer_logo w-inline-block"><img src="./imagens/logomarcas/less-logo.svg"
                             alt="Louisiana Economic Development Logo"></a>
                 </div>

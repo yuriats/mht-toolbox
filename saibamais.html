@@ -7,12 +7,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Saiba Mais!</title>
-    <meta
-        content="Artigos interessantes, outras referências, tudo sobre MHT e mineração de texto"
-        name="description">
+    <meta content="Artigos interessantes, outras referências, tudo sobre MHT e mineração de texto" name="description">
     <meta content="Saiba Mais!" property="og:title">
-    <meta
-        content="Artigos interessantes, outras referências, tudo sobre MHT e mineração de texto"
+    <meta content="Artigos interessantes, outras referências, tudo sobre MHT e mineração de texto"
         property="og:description">
     <meta
         content="https://global-uploads.webflow.com/5e31bf42f7056114949d6f5e/5e399de244deca391add9153_ljc-social-share-image.png"
@@ -47,6 +44,128 @@
             font-weight: 600;
             font-style: normal;
         }
+
+        /* table start */
+        table {
+            border-spacing: 1;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 6px;
+            overflow: hidden;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        table * {
+            position: relative;
+        }
+
+        table td,
+        table th {
+            padding-left: 8px;
+        }
+
+        table thead tr {
+            height: 60px;
+            background: #FFED86;
+            font-size: 16px;
+        }
+
+        table tbody tr {
+            height: 48px;
+            border-bottom: 1px solid #E3F1D5;
+        }
+
+        table tbody tr:last-child {
+            border: 0;
+        }
+
+        table td,
+        table th {
+            text-align: left;
+        }
+
+        #description-table {
+            width: 40%;
+        }
+
+        table td.l,
+        table th.l {
+            text-align: right;
+        }
+
+        table td.c,
+        table th.c {
+            text-align: center;
+        }
+
+        table td.r,
+        table th.r {
+            text-align: center;
+        }
+
+        @media screen and (max-width: 35.5em) {
+            table {
+                display: block;
+            }
+
+            table>*,
+            table tr,
+            table td,
+            table th {
+                display: block;
+            }
+
+            table thead {
+                display: none;
+            }
+
+            table tbody tr {
+                height: auto;
+                padding: 8px 0;
+            }
+
+            table tbody tr td {
+                padding-left: 45%;
+                margin-bottom: 12px;
+            }
+
+            table tbody tr td:last-child {
+                margin-bottom: 0;
+            }
+
+            table tbody tr td:before {
+                position: absolute;
+                font-weight: 700;
+                width: 40%;
+                left: 10px;
+                top: 0;
+            }
+
+            table tbody tr td:nth-child(1):before {
+                content: "Etapa";
+            }
+
+            table tbody tr td:nth-child(2):before {
+                content: "Descrição";
+            }
+
+            table tbody tr td:nth-child(3):before {
+                content: "Técnicas de mineração aplicáveis";
+            }
+
+            table tbody tr td:nth-child(4):before {
+                content: "Inch";
+            }
+
+            table tbody tr td:nth-child(5):before {
+                content: "Box Type";
+            }
+        }
+
+        /* table end */
     </style>
     <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
@@ -70,12 +189,12 @@
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TP87D4L');</script>
     <!-- End Google Tag Manager -->
     <style data-styled="" data-styled-version="4.0.2"></style>
@@ -295,23 +414,23 @@
         <!-- <div class="nav">
             <div data-collapse="medium" data-animation="default" data-duration="400"
                 data-w-id="9d530b53-a0d2-f7d3-07d9-a7eabc34feb6" class="c-navbar w-nav"><a
-                    href="https://www.louisianajobconnection.com/" class="c-navbar_link w-nav-brand"><img
+                    href="#/" class="c-navbar_link w-nav-brand"><img
                         src="./saibamais_files/5e31c2415be31efdbd63e5bd_ljc-logo.svg"
                         alt="Louisiana Job Connection Logo" class="c-navbar_logo"></a>
                 <nav role="navigation" class="c-navbar_menu w-nav-menu">
-                    <div class="c-navbar_links-contain"><a href="https://www.louisianajobconnection.com/"
+                    <div class="c-navbar_links-contain"><a href="#/"
                             class="c-navbar_navlink w-inline-block"><img
                                 src="./saibamais_files/5e31c9dc0cb08a5006577d6c_overview-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Overview</h6>
                         </a><a   
-                            href="https://www.louisianajobconnection.com/jobs"
+                            href="#/jobs"
                             class="c-navbar_navlink w-inline-block"><img
                                 src="./saibamais_files/5e31c9dc0cb08a7dd2577d6d_jobs-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Jobs</h6>
                         </a><a  
-                            href="https://www.louisianajobconnection.com/companies"
+                            href="#/companies"
                             class="c-navbar_navlink w-inline-block"><img
                                 src="./saibamais_files/5e31c9dc703f6b5c59c27c62_companies-icon1.svg" alt=""
                                 class="c-navbar_i1">
@@ -321,7 +440,7 @@
                                 src="./saibamais_files/5e31c9dcba8771543ed43b79_helpful-tips-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Helpful Tips</h6>
-                        </a><a href="https://www.louisianajobconnection.com/support"
+                        </a><a href="#/support"
                             class="c-navbar_navlink w-inline-block"><img
                                 src="./saibamais_files/5e31c9dcba8771fd6ad43b78_support-icon1.svg" alt=""
                                 class="c-navbar_i1">
@@ -463,34 +582,28 @@
         </div> -->
         <div class="nav">
             <div data-collapse="medium" data-animation="default" data-duration="400"
-                data-w-id="9d530b53-a0d2-f7d3-07d9-a7eabc34feb6" class="c-navbar w-nav"><a
-                    href="index.html" aria-current="page"
-                    class="c-navbar_link w-nav-brand "><img src="./imagens/logomarcas/ferramentas-mht.svg"
-                        alt="Louisiana Job Connection Logo" class="c-navbar_logo"></a>
+                data-w-id="9d530b53-a0d2-f7d3-07d9-a7eabc34feb6" class="c-navbar w-nav"><a href="index.html"
+                    aria-current="page" class="c-navbar_link w-nav-brand "><img
+                        src="./imagens/logomarcas/ferramentas-mht.svg" alt="Louisiana Job Connection Logo"
+                        class="c-navbar_logo"></a>
                 <nav role="navigation" class="c-navbar_menu w-nav-menu">
-                    <div class="c-navbar_links-contain"><a href="index.html"
-                            aria-current="page" class="c-navbar_navlink w-inline-block "><img
+                    <div class="c-navbar_links-contain"><a href="index.html" aria-current="page"
+                            class="c-navbar_navlink w-inline-block "><img
                                 src="./index_files/5e31c9dc0cb08a5006577d6c_overview-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Resumo</h6>
-                        </a><a   
-                            href="ferramentas.html"
-                            class="c-navbar_navlink w-inline-block"><img
+                        </a><a href="ferramentas.html" class="c-navbar_navlink w-inline-block"><img
                                 src="./index_files/5e31c9dc0cb08a7dd2577d6d_jobs-icon1.svg" alt="" class="c-navbar_i1">
                             <h6>Ferramentas</h6>
-                        </a><a  
-                            href="etapas.html"
-                            class="c-navbar_navlink w-inline-block"><img
+                        </a><a href="etapa.html" class="c-navbar_navlink w-inline-block"><img
                                 src="./index_files/5e31c9dc703f6b5c59c27c62_companies-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Etapas</h6>
-                        </a><a href="saibamais.html"
-                            class="c-navbar_navlink w-inline-block w--current"><img
+                        </a><a href="saibamais.html" class="c-navbar_navlink w-inline-block w--current"><img
                                 src="./index_files/5e31c9dcba8771543ed43b79_helpful-tips-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Saiba mais</h6>
-                        </a><a href="contato.html"
-                            class="c-navbar_navlink w-inline-block"><img
+                        </a><a href="contato.html" class="c-navbar_navlink w-inline-block"><img
                                 src="./index_files/5e31c9dcba8771fd6ad43b78_support-icon1.svg" alt=""
                                 class="c-navbar_i1">
                             <h6>Contato</h6>
@@ -587,194 +700,436 @@
             <h3 class="is--dark">Saiba Mais!</h3>
             <div class="c-faq-container w-dyn-list">
                 <div class="w-dyn-items">
-                    <div class="c-faq-item w-dyn-item"><a
-                            href="#"
-                            class="c-faq-item_trigger w-inline-block">
+                    <div class="c-faq-item w-dyn-item">
+                        <a href="#" class="c-faq-item_trigger w-inline-block">
+                            <h6>Como funciona o Monitoramento do Horizonte Tecnológico (MHT)?</h6>
+                            <div class="c-small-button is--no-hover"><img
+                                    src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
+                                    alt="Drop down arrow icon" class="is--rotated">
+                            </div>
+                        </a>
+                        <div class="c-faq-item_content" style="width: 100%; height: 0px;">
+                            <br>
+                            <p>O Monitoramento do Horizonte Tecnológico (MHT) em saúde é visto como uma ferramenta capaz
+                                de otimizar o uso dos recursos de um sistema de saúde, servindo como suporte aos
+                                processos de decisão, de incorporação, aquisição e abandono de tecnologias. Contudo, a
+                                adoção do MHT em larga escala ainda é um obstáculo, principalmente para os sistemas
+                                públicos de saúde. Justamente porque os processos como a identificação e a filtragem de
+                                tecnologias novas e emergentes exigem tempo e profissionais altamente qualificados.
+                                Assim sendo, torna-se relevante a otimização dos recursos humanos e do tempo de
+                                prospecção, para tal, a automatização desses processos com a adoção de técnicas de
+                                mineração de texto pode ser uma alternativa pertinente. A própria definição das diretrizes e etapas do MHT, sugere que algumas dessas etapas não
+                                podem e não devem ser automatizadas, mesmo que por mineração de texto, pois estas etapas
+                                estariam diretamente interligadas à interpretação de profissionais da área.
+                            </p> <br>
+                            <p>Por sua vez, o processo de definição das etapas do MHT através da International
+                                Information Network on New and Emerging Health Technologies (EUROSCAN) deu-se de maneira
+                                diversificada, devido as áreas prioritárias definidas por cada cliente principal e os
+                                recursos disponíveis desses clientes, o que foi crucial para o desenvolvimento
+                                personalizado das diretrizes do MHT nas quais são descritas as etapas para a
+                                identificação e monitoramento de tecnologias emergentes e novas. De maneira geral e
+                                concisa, as diretrizes atuais indicam que o processo de monitoramento do horizonte
+                                tecnológico divide-se em sete etapas, sendo elas: <br> <br>
+                                <strong>
+                                A - Definição do cliente, horizonte de tempo e tipo de tecnologia <br>
+                                B - Processo de identificação das tecnologias candidatas <br>
+                                C - Filtragem das tecnologias identificadas <br>
+                                D - Priorização <br>
+                                E - Avaliação <br>
+                                F - Revisão por Pares <br>
+                                G - Disseminação </strong>
+                            </p> <br>
+                            <p>A etapa inicial se divide em três etapas que definem a finalidade do desenvolvimento do
+                                MHT de acordo com as perspectivas do cliente (quem solicita ou se beneficia da
+                                informação gerada), do ciclo de vida da prospecção (fase de desenvolvimento que a
+                                tecnologia se encontra - da inovação ao abandono) e do tipo de tecnologia a ser
+                                monitorada. Como essas etapas são de decisão ativa por parte do projeto de MHT,
+                                dificilmente a automatização via mineração de texto seria aplicável. Exceto talvez para
+                                auxiliar a encontrar mais facilmente em que fase de desenvolvimento cada tecnologia de
+                                interesse se encontra, ou em sintetizar informações relevantes categorizando as
+                                tecnologias atualmente estudadas de acordo com seu potencial de inovação. Contudo, essas
+                                são tarefas ainda subjetivas que ainda envolveriam o olhar de profissionais da área de
+                                atuação.
+                            </p> <br>
+                            <p>Na escolha do tipo de tecnologia, também é definido quais as fontes de informação serão
+                                monitoradas pela etapa seguinte (identificação). Essa definição embora passível de
+                                automatização, é também variável com o tempo, devendo então serem periodicamente
+                                avaliadas perante sua utilidade. Essas fontes podem ser primárias, secundárias ou
+                                terciárias de acordo com seu nível de detalhamento e fidedignidade sobre o estudo e
+                                sobre a tecnologia estudada (dentre outros). Sendo as fontes primárias as mais
+                                primitivas, incompletas, parciais e rápidas se comparadas com as fontes terciárias.
+                                Dentre as fontes primárias, temos os registros de ensaios clínicos no ClinicalTrials.gov
+                                e o EU Clinical Trials Register. Dentre as fontes secundárias temos os periódicos
+                                científicos, conferências e demais fontes revisadas por pares que sintetizam os achados
+                                perante um estudo. E as fontes terciárias são as mais agregadas, como os informes
+                                gerados pela EUROSCAN, fornecendo mais evidências, porém mais tardiamente. </p> <br>
+                            <p>Na identificação de tecnologia são geradas volumosas listas de tecnologias que precisam
+                                ser filtradas e priorizadas de acordo com as características pré-definidas no MHT. Nesse
+                                processo, para a simples monitoração de sítios eletrônicos, as agências relatam um gasto
+                                de 2 a 8 horas semanais. Logo, essa etapa oferece alto potencial de automatização por
+                                mineração de texto (MT), dado que o desafio aqui é justamente reunir informação de
+                                qualidade mediante grande quantidade de dados e automatizar uma busca que é geralmente
+                                feita de forma estruturada.
+                            </p> <br>
+                            <p>Na etapa de filtragem, ocorre uma redução no volume de tecnologias identificadas, de
+                                acordo com critérios pré-definidos da maneira mais transparente e imparcial possível.
+                                Com esses critérios em mãos, a etapa de filtragem também poderia ser parcialmente
+                                automatizada com o auxílio de ferramentas de mineração de texto que procurem por
+                                critérios qualificativos nas fontes de informação utilizadas. Como cada agência possui
+                                objetivos e perspectivas diferentes sobre o MHT, os critérios de priorização escolhidos
+                                ainda apresentam variações entre si. De qualquer forma, a priorização de maneira geral,
+                                envolve indivíduos externos ao processo de avaliação, como especialistas das áreas e
+                                tomadores de decisão para avaliar a importância de cada critério. Logo, o texto de apoio
+                                utilizado para a priorização pode ser gerado de maneira mais automatizada e auxiliar na
+                                redução da subjetividade do processo, contudo a definição dos critérios per se ainda
+                                deve depender de indivíduos externos e capacitados.
+                            </p> <br>
+                            <p>Para a etapa de Avaliação, os principais parâmetros avaliados são a relevância da
+                                tecnologia para o grupo de pacientes, o desempenho da nova tecnologia em comparação ao
+                                padrão ouro e os custos ao longo do tempo. Logo, o uso de mineração de texto poderia
+                                facilitar que a síntese de evidências disponíveis sobre as tecnologias priorizadas
+                                fossem geradas mais rapidamente, viabilizando assim a avaliação de tecnologias que ainda
+                                estejam em etapas iniciais do desenvolvimento. A revisão por pares como o próprio nome indica é a etapa que possui menor potencial para
+                                automatização pois é através dessa etapa que o material elaborado por outros
+                                profissionais internos ou a agência que o elaborou é avaliada.</p> <br>
+                            <p>Para a disseminação, a informação deve chegar ao público alvo e ser o mais acessível
+                                possível. Nela, ferramentas de mineração e análise automatizada poderiam ser utilizadas,
+                                para saber se o objetivo está sendo cumprido, e quais fontes finais e mídias de
+                                disseminação são mais eficientes possuindo maior impacto, por exemplo. Contudo, a
+                                definição de público alvo e de estratégias primárias a serem seguidas também deve ser
+                                tomada por profissionais. Na atualização por fim, dado que todos os critérios e etapas
+                                estariam se repetindo para uma mesma tecnologia, existe potencial para mineração de
+                                texto.</p>
+
+                            <div class="c-rich-text is--faq-rich-text w-richtext">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="c-faq-item w-dyn-item">
+                        <a href="#" class="c-faq-item_trigger w-inline-block">
                             <h6>O que é mineração de texto?</h6>
                             <div class="c-small-button w-inline-block"><img
                                     src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
-                                    alt="Drop down arrow icon" class="is--rotated"></div>
+                                    alt="Drop down arrow icon" class="is--rotated">
+                            </div>
                         </a>
                         <div class="c-faq-item_content" style="width: 100%; height: 0px;">
+                            <p><br>No MHT etapas como a identificação e filtragem de tecnologias novas e emergentes
+                                englobam tarefas repetitivas e laboriosas, o que requer tempo excessivo de profissionais
+                                altamente qualificados, dificultando a adoção em larga escala do MHT. Uma maneira de
+                                reduzir o tempo de prospecção e otimizar os recursos humanos disponíveis seria
+                                automatizar parte do processo com a adoção de técnicas de Mineração de Texto.
+                                <br><br>
+                                Embora nem todas as etapas do MHT sejam automatizáveis, as que oferecem potencial para
+                                automatização poderiam ser significativamente otimizadas. Na identificação por exemplo,
+                                como diferentes fontes sobre as tecnologias devem ser monitoradas simultaneamente, essa
+                                identificação, gera volumosas listas de tecnologias que precisam ser filtradas e
+                                priorizadas de acordo com as características pré-definidas no MHT. Nesse processo, para
+                                a simples monitoração dos sítios eletrônicos de relevância, as agências relatam um gasto
+                                de 2 a 8 horas semanais. Sendo que, os principais desafios dessa etapa são reunir
+                                informação de qualidade mediante a grande quantidade de dados avaliados e automatizar a
+                                busca que é geralmente feita de forma estruturada. Dessa forma, listamos nesse site
+                                ferramentas que fazem uso de mineração de texto, pois essas parecem oferecem um
+                                potencial não explorado para a otimização do MHT.
+                                <br> <br>
+                                Mineração de texto pode ser compreendido como um subcampo da mineração de dados que
+                                busca extrair novas informações de fontes não estruturadas (ou semiestruturadas) de
+                                texto. Mineração de dados, por sua vez é um termo "guarda-chuva" que abrange uma ampla
+                                variedade de métodos computacionais para extrair novas informações de grande quantidade
+                                de dados. Nesse aspecto, os métodos mais comuns de mineração de dados (inclusive texto)
+                                são aqueles que envolvem aprendizado de máquina, classificação, regressão, padrões
+                                frequentes /associação (como os bayesianos, as árvores de decisão, redes neurais e as
+                                máquinas de vetores de suporte), agrupamento (incluindo métodos para agrupar dados
+                                contínuos e categóricos) ou visualização (como é o caso de grafos e redes).
+                                <br><br>
+                                Esses métodos de mineração têm sido constantemente aplicados e refinados nos últimos
+                                anos, em diferentes contextos, de acordo com as demandas da sociedade e capacidade
+                                computacional. A mineração de texto consiste num conjunto de ferramentas relativamente
+                                novas da computação que surgira para lidar com o excesso de informação textual gerada
+                                pela era da informação, característica do que conhecemos hoje como "big data" (conjuntos
+                                de dados grandes ou complexos demais para serem tratados por aplicativos tradicionais de
+                                processamento de dados). Combinando e aplicando técnicas de mineração de dados e
+                                aprendizado de máquinas.
+                                <br><br>
+                                Segundo COHEN e HUNTER, a estrutura linguística serve como suporte para as tarefas de
+                                mineração de texto. Dessa forma, a mineração possibilita uma análise mais profunda e
+                                automática daquilo que a linguística realiza. Portanto, existem diferentes tipos de
+                                tarefas de mineração de texto que oferecem o pré-processamento de documentos,
+                                representações e análises intermediárias e visualização do resultado final. Contudo,
+                                oito dessas tarefas são geralmente vistas como as mais exploradas até o presente,
+                                exercendo a função de extrair informações e encontrar padrões em diferentes conjuntos de
+                                dados. São elas:
+                                <br><br>
+                                <strong> Recuperação de informação (RI):</strong> Procura por informações relevantes ou
+                                novas em uma coleção de fontes diferentes por um mecanismo sistemático.
+                                <br><br>
+                                <strong>Extração de informação (EI):</strong> Aplicação de algum método de
+                                correspondência de padrões em um documento de texto com o objetivo de encontrar
+                                informações específicas e predefinidas.
+                                <br><br>
+                                <strong> Classificação:</strong> Procura sistematicamente em dados extraídos de uma
+                                categoria especificada, por padrões ou recursos naquele conteúdo que fazem parte de uma
+                                categoria.
+                                <br><br>
+                                <strong> Aglomeração:</strong> Procura sistemática por padrões em grupos de dados
+                                extraídos com base em seu conteúdo.
+                                <br><br>
+                                <strong> Geração de resumo:</strong> Gera uma versão mais curta do texto primário,
+                                preservando o significado geral, mas não o nível de detalhe.
+                                <br><br>
+                                <strong> Processamento de linguagem natural (PLN):</strong> Traduz a "linguagem humana"
+                                - com sua imprecisão, ambiguidade e estrutura em evolução - em um formato legível por
+                                máquina e indexável, sem perda de contexto ou significado.
+                                <br><br>
+                                <strong>Análise semântica:</strong> Lida com a redundância ou ambiguidade do texto
+                                extraindo o significado principal de palavras, sinônimos, frases, cláusulas ou sentenças
+                                no contexto.
+                                <br><br>
+                                <strong> Visualização de informação (VI):</strong> Aprimorar a interpretação humana das
+                                informações disponíveis pela interface gráfica do usuário ou por representações visuais.
+                            </p>
                             <div class="c-rich-text is--faq-rich-text w-richtext">
-                                <p>Louisiana Job Connection hopes you and your loved ones and staff remain safe during
-                                    the challenges caused by coronavirus. We know those difficulties include economic
-                                    and financial concerns, and we are committed as ever to helping job seekers find the
-                                    right connection with employers.</p>
+                                <p></p><br><br>
                             </div>
-                            <div class="c-faq_cta">
-                                <h6><strong class="is--dark">Still need assistance?</strong></h6>
-                                <p class="is--faq-p">Submit a help ticket and a representative will be in touch with you
-                                    shortly.</p><a href="https://www.louisianajobconnection.com/support"
-                                    class="c-button w-button">Support</a>
-                            </div>
+                            <img src="./imagens/mineracao-texto2.png" alt="">
                         </div>
                     </div>
-                    <div class="c-faq-item w-dyn-item"><a
-                            href="#"
-                            class="c-faq-item_trigger w-inline-block">
-                            <h6>Como funciona o Monitoramento do Horizonte Tecnológico?</h6>
+
+                    <div class="c-faq-item w-dyn-item">
+                        <a href="#" class="c-faq-item_trigger w-inline-block">
+                            <h6>Revisão Sistemática ou MHT?</h6>
                             <div class="c-small-button is--no-hover"><img
                                     src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
                                     alt="Drop down arrow icon" class="is--rotated"></div>
                         </a>
                         <div class="c-faq-item_content" style="width: 100%; height: 0px;">
-                            <div class="c-rich-text is--faq-rich-text w-richtext">
-                                <p>Yes, your resume is still active in our system, so there is no need to submit your
-                                    resume again. However, check back often for new opportunities and apply to those
-                                    positions directly.</p>
-                                <p>‍</p>
+                            <br>
+                            <p>     A criação de Revisões Sistemáticas é uma das áreas com grande demanda em ser automatizada, onde justamente a crescente publicação de artigos, torna vital que as revisões sejam finalizadas mais rapidamente e com menor custo. E nessa área, a mineração de texto também tem sido aplicada como técnicas e como parte do desenvolvimento de ferramentas para automatizar a elaboração dessas revisões sistemáticas, podendo acelerar diferentes etapas como a identificação e seleção de estudos relevantes. </p> <br>
+                            <p>     Contudo, embora as primeiras demonstrações de ferramentas eficazes em automatizar alguns desses processos tenham sido por volta de 2006, poucos pesquisadores relatam a utilização dessas ferramentas nos dias de hoje. Uma possível causa, poderia ser a baixa visibilidade dessas ferramentas. Além disso, usuários em potencial podem encontrar dificuldades em testar essas ferramentas sem suporte técnico, que possa esclarecer de forma simples como elas funcionam, como usá-las e como ajustá-las para situações específicas, dada a linguagem altamente técnica usada para descrevê-las.  Uma plataforma online que exerce essa função é denominada Systematic Review Toolbox (SR toolbox), contendo um catálogo de ferramentas que servem de suporte para a realização de revisões sistemáticas e síntese de evidências.</p> <br>
+
+                            <a href="http://systematicreviewtools.com/index.php"><strong>Systematic Review
+                                Toolbox</strong></a>
+                        <p>O Systematic Review Toolbox é um catálogo de ferramentas baseado na Web, pesquisável e
+                            dirigido pela comunidade, que suporta várias tarefas da revisão sistemática e do
+                            processo mais amplo de síntese de evidências.
+                            <br>
+                            A caixa de ferramentas visa ajudar pesquisadores e revisores a encontrar o seguinte:
+                        <ul>
+                            <li>Ferramentas de software</li>
+                            <li>Listas de verificação de avaliação de qualidade / avaliação crítica</li>
+                            <li>Padrões de relatórios</li>
+                            <li>Diretrizes</li>
+                        </ul>
+                        </p>
+                            <div class="c-rich-text is--faq-rich-text w-richtext"></div>
+                        </div>
+                    </div>
+                    <div class="c-faq-item w-dyn-item"><a href="#" class="c-faq-item_trigger w-inline-block">
+                            <h6>Etapas mais automatizáveis do MHT </h6>
+                            <div class="c-small-button is--no-hover"><img
+                                    src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
+                                    alt="Drop down arrow icon" class="is--rotated"></div>
+                        </a>
+                        <div class="c-faq-item_content" style="width: 100%; height: 0px;">
+                            <div>
+                                <br><br>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>ETAPA</th>
+                                            <th id="description-table">DESCRIÇÂO</th>
+                                            <th>TÉCNINCA DE MINEÇÃO APLICÁVEIS</th>
+                                        </tr>
+                                        <thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Identificação</td>
+                                                <td>Criação e avaliação da lista de tecnologias identificadas como
+                                                    relevantes</td>
+                                                <td>
+                                                    <h7>- Extração de Informação (EI)<br> - Recuperação de Informação
+                                                        (RI) <br> -
+                                                        Visualização de informação <br> - Classificação <br> -
+                                                        Processamento de
+                                                        Linguagem Natural (PNL)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Filtragem</td>
+                                                <td>Redução da lista de tecnologias identificadas e seleção dos
+                                                    critérios de forma transparente</td>
+                                                <td>
+                                                    <h7> - Recuperação de Informação (RI) <br> -
+                                                        Visualização de informação <br> - Geração de resumo <br> -
+                                                        Processamento de
+                                                        Linguagem Natural (PNL)</h7>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Priorização</td>
+                                                <td>Ordenação das tecnologias de acordo com sua relevância para o
+                                                    sistema de saúde em questão (cliente)</td>
+                                                <td>
+                                                    <h7>- Extração de Informação (EI)<br> - Visualização de informação
+                                                        <br> - Geração de resumos</h7>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Avaliação</td>
+                                                <td>Estabelecimento de um modelo de avaliação para uso dos
+                                                    especialistas, especificação dos critérios de seleção e de qualidade
+                                                    dos estudos, classificação do nível da evidência.</td>
+                                                <td>
+                                                    <h7> - Visualização de informação <br> - Classificação <br> -
+                                                        Geração de resumos</h7>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Disseminação</td>
+                                                <td>Auxiliar ser realizada de forma estruturada, periódica e automática
+                                                    e a verificar se o objetivo está sendo cumprido.</td>
+                                                <td>
+                                                    <h7> - Visualização de informação <br> - Classificação <br> -
+                                                        Geração de resumos</h7>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Atualização</td>
+                                                <td>Avaliação da eficácia; checagem de conflitos entre a informação nova
+                                                    e a anterior</td>
+                                                <td>
+                                                    <h7>- Extração de Informação (EI)<br> - Recuperação de Informação
+                                                        (RI) <br> -
+                                                        Visualização de informação <br> - Geração de resumos <br> -
+                                                        Processamento de
+                                                        Linguagem Natural (PNL)</h7>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                </table>
                             </div>
-                            <div class="c-faq_cta">
-                                <h6><strong class="is--dark">Still need assistance?</strong></h6>
-                                <p class="is--faq-p">Submit a help ticket and a representative will be in touch with you
-                                    shortly.</p><a href="https://www.louisianajobconnection.com/support"
-                                    class="c-button w-button">Support</a>
+                            <div class="c-rich-text is--faq-rich-text w-richtext">
                             </div>
                         </div>
                     </div>
-                    <div class="c-faq-item w-dyn-item"><a
-                            href="#"
-                            class="c-faq-item_trigger w-inline-block">
+                    <div class="c-faq-item w-dyn-item"><a href="#" class="c-faq-item_trigger w-inline-block">
+                            <h6>Qualificação das ferramentas</h6>
+                            <div class="c-small-button is--no-hover"><img
+                                    src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
+                                    alt="Drop down arrow icon" class="is--rotated"></div>
+                        </a>
+                        <div class="c-faq-item_content" style="width: 100%; height: 0px;">
+                            <br>
+                            <a href="https://docs.google.com/spreadsheets/d/1SJHavxUKImSHbQU2zraiVcn3tyK_1Dce0rQjHKJwXIE/edit?usp=sharing"><strong>Tabela comparativa das ferramentas</strong></a>
+                            <p>Tabela em DRIVE contendo informações qualitativas sobre todas as ferramentas encontradas pela estratégia de busca de forma comparativa</p>
+                          
+                            <div class="c-rich-text is--faq-rich-text w-richtext"></div>
+                        </div>
+                    </div>
+                    <div class="c-faq-item w-dyn-item">
+                        <a href="#" class="c-faq-item_trigger w-inline-block">
                             <h6>Relatórios e guias oficias </h6>
                             <div class="c-small-button is--no-hover"><img
                                     src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
                                     alt="Drop down arrow icon" class="is--rotated"></div>
                         </a>
                         <div class="c-faq-item_content" style="width: 100%; height: 0px;">
-                            <div class="c-rich-text is--faq-rich-text w-richtext">
-                                <p>After March 26, 2020, we are not posting new jobs for companies not working with LED
-                                    FastStart. &nbsp;</p>
-                                <p>‍</p>
-                            </div>
-                            <div class="c-faq_cta">
-                                <h6><strong class="is--dark">Still need assistance?</strong></h6>
-                                <p class="is--faq-p">Submit a help ticket and a representative will be in touch with you
-                                    shortly.</p><a href="https://www.louisianajobconnection.com/support"
-                                    class="c-button w-button">Support</a>
-                            </div>
+                            <br> <br>
+                            <a href="http://conitec.gov.br/entenda-a-conitec-2"><strong>CONITEC</strong></a>
+                            <p>A Comissão, assistida pelo Departamento de Gestão e Incorporação de Tecnologias e
+                                Inovação em Saúde - DGITIS, tem por objetivo assessorar o Ministério da Saúde - MS nas
+                                atribuições relativas à incorporação, exclusão ou alteração de tecnologias em saúde pelo
+                                SUS, bem como na constituição ou alteração de Protocolos Clínicos e Diretrizes
+                                Terapêuticas - PCDT.</p>
+                            <br>
+
+                            <a href="http://conitec.gov.br/images/Radar/LivroMHT.pdf"><strong>Toolkit - Monitoramento do
+                                    Horizonte Tecnológico no Brasil: Avanços e Desafos</strong></a>
+                            <p>Livro que aborda a importância de se mapear as inovações em tecnologia no setor saúde.
+                                Não se trata de fazer previsões a respeito do futuro, mas de analisar as oportunidades,
+                                ameaças e prováveis mudanças que tecnologias novas ou em desenvolvimento podem
+                                representar no cuidado em saúde. </p>
+                            <br>
+
+                            <a href="http://www.peb.ufrj.br/teses/Tese0258_2016_11_08.pdf"><strong>Tese - Metodologia de
+                                    monitoramento do horizonte tecnológico para o Sistema Único de Saúde – medicamentos
+                                    oncológicos</strong></a>
+                            <p>Entre as etapas básicas de um sistema de monitoramento do horizonte de tecnologias
+                                emergentes, estão a filtragem e a priorização dessas tecnologias. Este trabalho tem por
+                                objetivo mapear as preferências dos atores estratégicos do Sistema Único de Saúde (SUS)
+                                quanto aos critérios de filtragem e priorização.</p>
+                            <br>
+
+                            <a
+                                href="http://periodicos.ses.sp.bvs.br/scielo.php?script=sci_arttext&pid=S1518-18122013000200008&lng=pt&nrm=iso&tlng=pt"><strong>Artigo
+                                    - O desenvolvimento do Monitoramento do Horizonte Tecnológico no mundo e a proposta
+                                    brasileira</strong></a>
+                            <p>Artigo sobre mudanças no processo de incorporação de tecnologias no Sistema Único de
+                                Saúde (SUS) que trouxeram novas atribuições e responsabilidades para o MHT.</p>
+                            <br>
+
+                            <a href="http://systematicreviewtools.com/index.php"><strong>Systematic Review
+                                Toolbox</strong></a>
+                        <p>O Systematic Review Toolbox é um catálogo de ferramentas baseado na Web, pesquisável e
+                            dirigido pela comunidade, que suporta várias tarefas da revisão sistemática e do
+                            processo mais amplo de síntese de evidências.
+                            <br>
+                            A caixa de ferramentas visa ajudar pesquisadores e revisores a encontrar o seguinte:
+                        <ul>
+                            <li>Ferramentas de software</li>
+                            <li>Listas de verificação de avaliação de qualidade / avaliação crítica</li>
+                            <li>Padrões de relatórios</li>
+                            <li>Diretrizes</li>
+                        </ul>
+                        </p>
+                            <div class="c-rich-text is--faq-rich-text w-richtext"> </div>
                         </div>
                     </div>
-                    <div class="c-faq-item w-dyn-item"><a
-                            href="#"
-                            class="c-faq-item_trigger w-inline-block">
+                    <div class="c-faq-item w-dyn-item">
+                        <a href="#" class="c-faq-item_trigger w-inline-block">
                             <h6>Bibliografias e referências</h6>
                             <div class="c-small-button is--no-hover"><img
                                     src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
                                     alt="Drop down arrow icon" class="is--rotated"></div>
                         </a>
                         <div class="c-faq-item_content" style="width: 100%; height: 0px;">
-                            <div class="c-rich-text is--faq-rich-text w-richtext">
-                                <p>For best results, upload your resume to apply for individual job posts. Or, from the
-                                    homepage, click “post resume” on the bottom left-hand toolbar, follow the
-                                    instructions and then click “submit now”.</p>
-                                <p>‍</p>
-                            </div>
-                            <div class="c-faq_cta">
-                                <h6><strong class="is--dark">Still need assistance?</strong></h6>
-                                <p class="is--faq-p">Submit a help ticket and a representative will be in touch with you
-                                    shortly.</p><a href="https://www.louisianajobconnection.com/support"
-                                    class="c-button w-button">Support</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-faq-item w-dyn-item"><a
-                            href="#"
-                            class="c-faq-item_trigger w-inline-block">
-                            <h6>How do I find jobs?</h6>
-                            <div class="c-small-button is--no-hover"><img
-                                    src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
-                                    alt="Drop down arrow icon" class="is--rotated"></div>
-                        </a>
-                        <div class="c-faq-item_content" style="width: 100%; height: 0px;">
-                            <div class="c-rich-text is--faq-rich-text w-richtext">
-                                <p>Click “Jobs” from the left toolbar. Select the filter according to your job search
-                                    preferences. Adjust your filter as necessary to change your search results. Please
-                                    note you may only use one filter at a time. Or, click “Find a Job” on the bottom
-                                    left side of the homepage.</p>
-                                <p>‍</p>
-                            </div>
-                            <div class="c-faq_cta">
-                                <h6><strong class="is--dark">Still need assistance?</strong></h6>
-                                <p class="is--faq-p">Submit a help ticket and a representative will be in touch with you
-                                    shortly.</p><a href="https://www.louisianajobconnection.com/support"
-                                    class="c-button w-button">Support</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-faq-item w-dyn-item"><a
-                            href="#"
-                            class="c-faq-item_trigger w-inline-block">
-                            <h6>I’m having trouble uploading my resume, can I contact someone for assistance?</h6>
-                            <div class="c-small-button is--no-hover"><img
-                                    src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
-                                    alt="Drop down arrow icon" class="is--rotated"></div>
-                        </a>
-                        <div class="c-faq-item_content" style="width: 100%; height: 0px;">
-                            <div class="c-rich-text is--faq-rich-text w-richtext">
-                                <p>Yes, click “Support” on the left toolbar. Type your contact details, your message,
-                                    and click the “Submit Now” button. Someone will contact you within two business
-                                    days.</p>
-                                <p>‍</p>
-                            </div>
-                            <div class="c-faq_cta">
-                                <h6><strong class="is--dark">Still need assistance?</strong></h6>
-                                <p class="is--faq-p">Submit a help ticket and a representative will be in touch with you
-                                    shortly.</p><a href="https://www.louisianajobconnection.com/support"
-                                    class="c-button w-button">Support</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-faq-item w-dyn-item"><a
-                            href="#"
-                            class="c-faq-item_trigger w-inline-block">
-                            <h6>How do I access my Louisiana Business Connection account? </h6>
-                            <div class="c-small-button is--no-hover"><img
-                                    src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
-                                    alt="Drop down arrow icon" class="is--rotated"></div>
-                        </a>
-                        <div class="c-faq-item_content" style="width: 100%; height: 0px;">
-                            <div class="c-rich-text is--faq-rich-text w-richtext">
-                                <p>Louisiana Business Connection is undergoing some changes as well. You can log on to
-                                    your account at www.LouisianaBusinessConnection.com or contact <a
-                                        href="https://www.opportunitylouisiana.com/small-business">LED Small Business
-                                        Services</a> for more information.</p>
-                                <p>‍</p>
-                            </div>
-                            <div class="c-faq_cta">
-                                <h6><strong class="is--dark">Still need assistance?</strong></h6>
-                                <p class="is--faq-p">Submit a help ticket and a representative will be in touch with you
-                                    shortly.</p><a href="https://www.louisianajobconnection.com/support"
-                                    class="c-button w-button">Support</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-faq-item w-dyn-item"><a
-                            href="#"
-                            class="c-faq-item_trigger w-inline-block">
-                            <h6>Where’s the blog? </h6>
-                            <div class="c-small-button is--no-hover"><img
-                                    src="./saibamais_files/5e31c49482a922d66e779e18_small-arrow.svg"
-                                    alt="Drop down arrow icon" class="is--rotated"></div>
-                        </a>
-                        <div class="c-faq-item_content" style="width: 100%; height: 0px;">
-                            <div class="c-rich-text is--faq-rich-text w-richtext">
-                                <p>Looking for Helpful Tips? Navigate to the left toolbar and click “Helpful Tips” to
-                                    access blog information.</p>
-                            </div>
-                            <div class="c-faq_cta">
-                                <h6><strong class="is--dark">Still need assistance?</strong></h6>
-                                <p class="is--faq-p">Submit a help ticket and a representative will be in touch with you
-                                    shortly.</p><a href="https://www.louisianajobconnection.com/support"
-                                    class="c-button w-button">Support</a>
-                            </div>
+                            <br> <br>
+                            <ul>
+                                <li>Feldman, Ronen, and James Sanger. 2006. “Text Mining Handbook Advanced Approaches
+                                    Analyzing Unstructured Data | Knowledge Management, Databases and Data Mining.”
+                                    Cambridge University Press. Cambridge University Press. December 11, 2006. <a
+                                        href="https://www.cambridge.org/br/academic/subjects/computer-science/knowledge-management-databases-and-data-mining/text-mining-handbook-advanced-approaches-analyzing-unstructured-data?format=HB&isbn=9780521836579"><strong>https://www.cambridge.org/br/academic/subjects/computer-science/knowledge-management-databases-and-data-mining/text-mining-handbook-advanced-approaches-analyzing-unstructured-data?format=HB&isbn=9780521836579.</strong></a>
+                                </li>
+                                <br>
+                                <li>Feng, Luyi, Yin Kia Chiam, and Sin Kuang Lo. 2017. “Text-Mining Techniques and Tools
+                                    for Systematic Literature Reviews: A Systematic Literature Review.” In 2017 24TH
+                                    ASIA-PACIFIC SOFTWARE ENGINEERING CONFERENCE (APSEC 2017), edited by Lv, J and
+                                    Zhang, H and Hinchey, M and Liu, X, 2017-December:41–50. Asia-Pacific Software
+                                    Engineering Conference. IEEE Computer Society. <a
+                                        href="https://doi.org/10.1109/APSEC.2017.10"><strong>https://doi.org/10.1109/APSEC.2017.10.</strong></a>
+                                </li>
+                                <br>
+                                <li>Marshall, C., and A. Sutton. 2016. “Systematic Review Toolbox.” Value in Health: The
+                                    Journal of the International Society for Pharmacoeconomics and Outcomes Research. <a
+                                        href="https://www.valueinhealthjournal.com/article/S1098-3015(16)31660-6/abstract"><strong>https://www.valueinhealthjournal.com/article/S1098-3015(16)31660-6/abstract.</strong></a>
+                                </li>
+                                <br>
+                            </ul>
+                            <div class="c-rich-text is--faq-rich-text w-richtext"> </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- <div class="c-footer">
                 <div class="c-footer_contain1">
-                    <p>Brought to you by:</p><a href="https://www.opportunitylouisiana.com/" target="_blank"
+                    <p>Brought to you by:</p><a href="http://www.peb.ufrj.br/less.htm" target="_blank"
                         class="c-footer_logo w-inline-block"><img
                             src="./saibamais_files/5e31c32b85c62c7ebefe07f0_led-logo.svg"
                             alt="Louisiana Economic Development Logo"></a>
@@ -788,9 +1143,9 @@
                     </div>
                 </div>
                 <div class="c-footer_contain2"><a
-                        href="https://www.louisianajobconnection.com/frequently-asked-questions" aria-current="page"
+                        href="#/frequently-asked-questions" aria-current="page"
                         class="is--footer-link w--current">FAQ</a>
-                    <div class="c-footer_line"></div><a href="https://www.louisianajobconnection.com/privacy"
+                    <div class="c-footer_line"></div><a href="#/privacy"
                         class="is--footer-link">Privacy</a>
                 </div>
                 <div class="c-footer_contain3"><a href="https://www.linkedin.com/company/louisiana-job-connection/"
@@ -809,7 +1164,7 @@
             </div> -->
             <div class="c-footer">
                 <div class="c-footer_contain1">
-                    <p>Disponibilizado por:</p><a href="https://www.opportunitylouisiana.com/" target="_blank"
+                    <p>Disponibilizado por:</p><a href="http://www.peb.ufrj.br/less.htm" target="_blank"
                         class="c-footer_logo w-inline-block"><img src="./imagens/logomarcas/less-logo.svg"
                             alt="Louisiana Economic Development Logo"></a>
                 </div>
@@ -821,7 +1176,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="c-footer_contain2"> 
+                <div class="c-footer_contain2">
                 </div>
                 <div class="c-footer_contain3"><a href="https://twitter.com/" target="_blank"
                         class="c-footer_social w-inline-block"><img
